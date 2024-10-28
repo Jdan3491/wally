@@ -30,28 +30,33 @@ cd wally
 ```
 
 ### Installare le Dipendenze
-
+```bash
 npm install
+```
 
+Oppure
+
+```bash
 yarn install
+```
 
 
 ### Installazione su iOS
 ### Assicurati di avere Xcode e i requisiti configurati per l'ambiente iOS, quindi esegui:
 
-
+```bash
 cd ios
 pod install
 cd ..
 npx react-native run-ios
-
+```
 
 ### Installazione su Android
 ### Assicurati di avere Android Studio e l'emulatore configurato, quindi esegui:
 
-
+```bash
 npx react-native run-android
-
+```
 
 
 
